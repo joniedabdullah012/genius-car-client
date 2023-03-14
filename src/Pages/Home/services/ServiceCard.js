@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 const ServiceCard = ({ service }) => {
+
     const { _id, img, price, title } = service;
     return (
         <div className="card w-96 bg-base-100 shadow-xl gap-5 mx-20">

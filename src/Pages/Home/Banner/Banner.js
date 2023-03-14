@@ -61,7 +61,7 @@ const bannerData = [
 
 const Banner = () => {
     return (
-        <div className="carousel w-full py-10">
+        <div className="carousel  m-16 ">
 
 
             {
